@@ -1,2 +1,10 @@
 $intervalBig: 48px;
 $interval: 24px;
+
+$breakpoints: (
+  "tablet": 768px,
+  // 태블릿
+  "desktop": 992px,
+  // 데스크탑
+  "large": 1200px // 대형 디스플레이,
+);
