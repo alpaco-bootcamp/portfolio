@@ -12,8 +12,8 @@
   <div class="wrap">
     <div class="container">
       <!-- 헤더 영역 -->
-      <header>
-        <button class="resume-btn">RESUME</button>
+      <header class="resume">
+        <a href="/" class="resume-btn">RESUME</a>
       </header>
 
       <!-- 메인 컨텐츠 영역 -->
@@ -21,164 +21,169 @@
         <!-- 프로필 섹션 -->
         <section class="profile">
           <div class="profile-image">
-            <img src="https://placehold.co/250x260" alt="김다솜 프로필 사진" />
+            <img src="https://placehold.co/250x250" alt="김다솜 프로필 사진" />
           </div>
           <div class="profile-info">
-            <h1 class="korean-name">김다솜</h1>
-            <h2 class="english-name">Dasom Kim</h2>
-            <p class="birth-date">1999. 01. 15</p>
+            <h1 class="title">김다솜</h1>
+            <h2 class="title-sub">Dasom Kim</h2>
+            <p class="title-sub">1999. 01. 15</p>
 
-            <div class="contact-info">
-              <div class="contact-item">
-                <span class="label">mobile</span>
-                <span class="value">010. 1234. 5678</span>
-              </div>
-              <div class="contact-item">
-                <span class="label">e-mail</span>
-                <span class="value">dasom123@gmail.com</span>
-              </div>
-              <div class="contact-item">
-                <span class="label">SNS</span>
-                <span class="value">@chutz__rit (Instagram)</span>
-              </div>
+            <div class="contact">
+              <dl class="contact__item">
+                <dt class="contact__label">mobile</dt>
+                <dd class="contact__value">010. 1234. 5678</dd>
+              </dl>
+              <dl class="contact__item">
+                <dt class="contact__label">e-mail</dt>
+                <dd class="contact__value">dasom123@gmail.com</dd>
+              </dl>
+              <dl class="contact__item">
+                <dt class="contact__label">SNS</dt>
+                <dd class="contact__value">@chutz__rit (Instagram)</dd>
+              </dl>
             </div>
           </div>
         </section>
 
         <!-- 교육 섹션 -->
-        <section class="education">
-          <h2 class="section-title">Education</h2>
-          <div class="education-item">
-            <p class="year">2005-2008</p>
-            <p class="school">대전 중일고등학교</p>
-          </div>
-          <div class="education-item">
-            <p class="year">2008-2010</p>
-            <p class="school">
-              동서울대학교 패션디자인전공 (수료)
-            </p>
-          </div>
-        </section>
+        <article>
+          <section class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="section-item">
+              <p class="year">2005-2008</p>
+              <p class="school">대전 중일고등학교</p>
+            </div>
+            <div class="section-item">
+              <p class="year">2008-2010</p>
+              <p class="school">
+                동서울대학교 패션디자인전공 (수료)
+              </p>
+            </div>
+          </section>
+        </article>
 
-        <!-- 수상 및 활동 섹션 -->
-        <section class="awards">
-          <h2 class="section-title">Activities</h2>
+        <article>
+          <!-- 수상 및 활동 섹션 -->
+          <section class="section">
+            <h2 class="section-title">Activities</h2>
 
-          <div class="award-item">
-            <p class="year">2018 ~ 2019</p>
-            <p class="description">젤리피쉬월드 - 교육 플랫폼 화면 구성 및 개발</p>
-          </div>
-          <div class="award-item">
-            <p class="year">2019 ~ 2021</p>
-            <p class="description">유아이랩 - 고객사 웹 서비스 다수 리뉴얼 및 구축 참여</p>
-            <p class="description">· 라인페이 글로벌 플랫폼 구축</p>
-            <p class="description">· 하나원큐 모바일 앱 전면 리뉴얼</p>
-            <p class="description">· GS SHOP 웹/모바일 리뉴얼</p>
-            <p class="description">· 데이터센터 관리 페이지 구축</p>
-          </div>
+            <div class="section-item">
+              <p class="year">2018 ~ 2019</p>
+              <p class="description">젤리피쉬월드 - 교육 플랫폼 화면 구성 및 개발</p>
+            </div>
+            <div class="section-item">
+              <p class="year">2019 ~ 2021</p>
+              <p class="description">유아이랩 - 고객사 웹 서비스 다수 리뉴얼 및 구축 참여</p>
+              <p class="description">· 라인페이 글로벌 플랫폼 구축</p>
+              <p class="description">· 하나원큐 모바일 앱 전면 리뉴얼</p>
+              <p class="description">· GS SHOP 웹/모바일 리뉴얼</p>
+              <p class="description">· 데이터센터 관리 페이지 구축</p>
+            </div>
 
-          <div class="award-item">
-            <p class="year">2021 ~ 2022</p>
-            <p class="description">어니언소프트웨어 - 데이터센터 관리 시스템 유지보수 및 개선</p>
-          </div>
+            <div class="section-item">
+              <p class="year">2021 ~ 2022</p>
+              <p class="description">어니언소프트웨어 - 데이터센터 관리 시스템 유지보수 및 개선</p>
+            </div>
 
-          <div class="award-item">
-            <p class="year">2022</p>
-            <p class="description">쉐어아트 - NFT 기반 SNS 웹서비스 프론트엔드 전담</p>
-          </div>
+            <div class="section-item">
+              <p class="year">2022</p>
+              <p class="description">쉐어아트 - NFT 기반 SNS 웹서비스 프론트엔드 전담</p>
+            </div>
 
-          <div class="award-item">
-            <p class="year">2023 ~ 2024</p>
-            <p class="description">오투유엑스 - 우리은행 통금고 리뉴얼 프론트엔드 개발</p>
-          </div>
+            <div class="section-item">
+              <p class="year">2023 ~ 2024</p>
+              <p class="description">오투유엑스 - 우리은행 통금고 리뉴얼 프론트엔드 개발</p>
+            </div>
 
-          <div class="award-item">
-            <p class="year">2023 ~ 진행중</p>
-            <p class="description">개인 및 강의 활동</p>
-            <p class="description">· 후츠릿 React 4주 완성반 운영</p>
-            <p class="description">· 챗GPT 활용법 특강 (피어스)</p>
-            <p class="description">· 챗GPT API로 웹서비스 개발하기 (유데미)</p>
-            <p class="description">· 실습으로 배우는 프론트엔드 개발 (한국취업센터)</p>
-          </div>
-        </section>
+            <div class="section-item">
+              <p class="year">2023 ~ 진행중</p>
+              <p class="description">개인 및 강의 활동</p>
+              <p class="description">· 후츠릿 React 4주 완성반 운영</p>
+              <p class="description">· 챗GPT 활용법 특강 (피어스)</p>
+              <p class="description">· 챗GPT API로 웹서비스 개발하기 (유데미)</p>
+              <p class="description">· 실습으로 배우는 프론트엔드 개발 (한국취업센터)</p>
+            </div>
+          </section>
 
 
-        <!-- 자격증 섹션 -->
-        <section class="license">
-          <h2 class="section-title">License</h2>
-          <p>정보처리기사 (2020)</p>
-        </section>
+          <!-- 자격증 섹션 -->
+          <section class="section">
+            <h2 class="section-title">License</h2>
+            <p>정보처리기사 (2020)</p>
+          </section>
 
-        <!-- 스킬 섹션 -->
-        <section class="skills">
-          <h2 class="section-title">Skills</h2>
-          <div class="skill-icons">
+          <!-- 스킬 섹션 -->
+          <section class="section skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skill-icons">
 
-            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-                alt="javascript" height="30" />
-            </a>
-            <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
-                alt="typescript" height="30" />
-            </a>
-            <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
-                alt="react" height="30" />
-            </a>
-            <a href="https://vuejs.org/" target="_blank" rel="noreferrer">
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg"
-                alt="vuejs" height="30" />
-            </a>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                  alt="javascript" height="30" />
+              </a>
+              <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+                  alt="typescript" height="30" />
+              </a>
+              <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+                  alt="react" height="30" />
+              </a>
+              <a href="https://vuejs.org/" target="_blank" rel="noreferrer">
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg"
+                  alt="vuejs" height="30" />
+              </a>
 
-            <a href="https://golang.org" target="_blank" rel="noreferrer">
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go"
-                width="40" height="30" />
-            </a>
+              <a href="https://golang.org" target="_blank" rel="noreferrer">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go"
+                  width="40" height="30" />
+              </a>
 
-            <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
-                alt="mysql" height="30" />
-            </a>
+              <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
+                  alt="mysql" height="30" />
+              </a>
 
-            <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
-                alt="html5" width="40" height="30" />
-            </a>
-            <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-                alt="css3" height="30" />
-            </a>
+              <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+                  alt="html5" width="40" height="30" />
+              </a>
+              <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+                  alt="css3" height="30" />
+              </a>
 
-            <a href="https://sass-lang.com" target="_blank" rel="noreferrer">
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"
-                alt="sass" height="30" />
-            </a>
-            <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
-              <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind"
-                height="30" />
-            </a>
+              <a href="https://sass-lang.com" target="_blank" rel="noreferrer">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"
+                  alt="sass" height="30" />
+              </a>
+              <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
+                <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind"
+                  height="30" />
+              </a>
 
-            <a href="https://www.figma.com/" target="_blank" rel="noreferrer">
-              <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" height="30" />
-            </a>
-            <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer">
-              <img
-                src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1602172134/noticon/owhrsm7fwznd39eli3d6.png"
-                alt="photoshop" height="30" />
-            </a>
+              <a href="https://www.figma.com/" target="_blank" rel="noreferrer">
+                <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" height="30" />
+              </a>
+              <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer">
+                <img
+                  src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1602172134/noticon/owhrsm7fwznd39eli3d6.png"
+                  alt="photoshop" height="30" />
+              </a>
 
-            <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-              <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" height="30" />
-            </a>
+              <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+                <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" height="30" />
+              </a>
 
-        </section>
+          </section>
+        </article>
       </main>
     </div>
   </div>
