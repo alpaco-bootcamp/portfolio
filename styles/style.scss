@@ -13,6 +13,8 @@
   }
 }
 
+// BEM 방식의 중첩 선택자로 작성
+
 html {
   height: 100vh;
 }
@@ -228,27 +230,31 @@ main {
 
   // 햄버거 메뉴 활성화 클래스
   &.active {
-    .nav__menu {
-      transform: translateY(0);
-    }
-
-    .nav__mobile-toggle {
-      position: fixed;
-      top: 20px;
-      right: 20px;
-    }
-
-    .nav__hamburger {
-      span:first-child {
-        transform: translateY(9px) rotate(45deg);
+    .nav {
+      &__menu {
+        transform: translateY(0);
       }
 
-      span:nth-child(2) {
-        opacity: 0;
+      &__mobile-toggle {
+        position: fixed;
+        top: 20px;
+        right: 20px;
       }
 
-      span:last-child {
-        transform: translateY(-9px) rotate(-45deg);
+      &__hamburger {
+        span {
+          &:first-child {
+            transform: translateY(9px) rotate(45deg);
+          }
+
+          &:nth-child(2) {
+            opacity: 0;
+          }
+
+          &:last-child {
+            transform: translateY(-9px) rotate(-45deg);
+          }
+        }
       }
     }
   }
